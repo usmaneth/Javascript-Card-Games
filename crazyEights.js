@@ -5,7 +5,7 @@ function CrazyEights(deck) {
 }
 
 CrazyEights.prototype.addPlayer = function(player) {
-  this.players.push(player);
+  this.players.push(player)
 };
 
 CrazyEights.prototype.startGame = function() {
